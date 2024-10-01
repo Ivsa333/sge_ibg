@@ -1,6 +1,5 @@
 # Index
 ## Unidad 2
-[unidad 2](./ut02/index.md)
 ## Unidad 3
 ## Unidad 4
 ## Unidad 5
