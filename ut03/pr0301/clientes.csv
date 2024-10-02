@@ -1,0 +1,51 @@
+Nombre y Apellidos;Calle;Número de Calle;Localidad;Código Postal;Ciudad;NIF;Móvil;Teléfono Fijo;Correo Electrónico;Página Web
+Juan Pérez;Calle Mayor;1;Madrid;28000;Madrid;X02345678;600000000;900000000;cliente0@mail.com;www.cliente0.com
+María López;Calle Sol;2;Barcelona;28001;Barcelona;X12345678;600000001;900000001;cliente1@mail.com;www.cliente1.com
+Carlos García;Calle Luna;3;Sevilla;28002;Sevilla;X22345678;600000002;900000002;cliente2@mail.com;www.cliente2.com
+Ana Martínez;Calle Río;4;Valencia;28003;Valencia;X32345678;600000003;900000003;cliente3@mail.com;www.cliente3.com
+Luis Rodríguez;Paseo de la Paz;5;Bilbao;28004;Bilbao;X42345678;600000004;900000004;cliente4@mail.com;www.cliente4.com
+Elena Sánchez;Plaza del Mar;6;Zaragoza;28005;Zaragoza;X52345678;600000005;900000005;cliente5@mail.com;www.cliente5.com
+José Fernández;Calle del Viento;7;Málaga;28006;Málaga;X62345678;600000006;900000006;cliente6@mail.com;www.cliente6.com
+Marta Gómez;Avenida Verde;8;Murcia;28007;Murcia;X72345678;600000007;900000007;cliente7@mail.com;www.cliente7.com
+Pedro Díaz;Calle Azul;9;Granada;28008;Granada;X82345678;600000008;900000008;cliente8@mail.com;www.cliente8.com
+Lucía Jiménez;Calle Blanca;10;Salamanca;28009;Salamanca;X92345678;600000009;900000009;cliente9@mail.com;www.cliente9.com
+Raúl Morales;Calle del Bosque;11;Vigo;28010;Vigo;X102345678;600000010;900000010;cliente10@mail.com;www.cliente10.com
+Sara Torres;Avenida Roja;12;San Sebastián;28011;San Sebastián;X112345678;600000011;900000011;cliente11@mail.com;www.cliente11.com
+David Gil;Calle Dorada;13;Cádiz;28012;Cádiz;X122345678;600000012;900000012;cliente12@mail.com;www.cliente12.com
+Laura Muñoz;Calle Primavera;14;León;28013;León;X132345678;600000013;900000013;cliente13@mail.com;www.cliente13.com
+Manuel Castro;Calle Otoño;15;Oviedo;28014;Oviedo;X142345678;600000014;900000014;cliente14@mail.com;www.cliente14.com
+Isabel Ramírez;Plaza Central;16;Santander;28015;Santander;X152345678;600000015;900000015;cliente15@mail.com;www.cliente15.com
+Sergio Ortiz;Calle Estrella;17;Toledo;28016;Toledo;X162345678;600000016;900000016;cliente16@mail.com;www.cliente16.com
+Carmen Ruiz;Avenida de la Flor;18;Córdoba;28017;Córdoba;X172345678;600000017;900000017;cliente17@mail.com;www.cliente17.com
+Francisco Hernández;Calle del Norte;19;Almería;28018;Almería;X182345678;600000018;900000018;cliente18@mail.com;www.cliente18.com
+Julia Vázquez;Calle del Sur;20;Alicante;28019;Alicante;X192345678;600000019;900000019;cliente19@mail.com;www.cliente19.com
+Andrés Molina;Calle Ancha;21;Pamplona;28020;Pamplona;X202345678;600000020;900000020;cliente20@mail.com;www.cliente20.com
+Beatriz Navarro;Calle Nueva;22;Burgos;28021;Burgos;X212345678;600000021;900000021;cliente21@mail.com;www.cliente21.com
+Ricardo Domínguez;Calle Larga;23;Logroño;28022;Logroño;X222345678;600000022;900000022;cliente22@mail.com;www.cliente22.com
+Cristina Suárez;Calle Antigua;24;Valladolid;28023;Valladolid;X232345678;600000023;900000023;cliente23@mail.com;www.cliente23.com
+Alberto Iglesias;Calle Alta;25;Palencia;28024;Palencia;X242345678;600000024;900000024;cliente24@mail.com;www.cliente24.com
+Clara León;Calle Baja;26;Lugo;28025;Lugo;X252345678;600000025;900000025;cliente25@mail.com;www.cliente25.com
+Ángel Serrano;Calle Real;27;Orense;28026;Orense;X262345678;600000026;900000026;cliente26@mail.com;www.cliente26.com
+Nuria Rivas;Calle Falsa;28;Gijón;28027;Gijón;X272345678;600000027;900000027;cliente27@mail.com;www.cliente27.com
+Jorge Peña;Calle Esperanza;29;Huelva;28028;Huelva;X282345678;600000028;900000028;cliente28@mail.com;www.cliente28.com
+Patricia Esteban;Calle Libertad;30;Jaén;28029;Jaén;X292345678;600000029;900000029;cliente29@mail.com;www.cliente29.com
+Antonio Cruz;Calle de la Amistad;31;Cuenca;28030;Cuenca;X302345678;600000030;900000030;cliente30@mail.com;www.cliente30.com
+Mónica Aguado;Calle de la Luz;32;Soria;28031;Soria;X312345678;600000031;900000031;cliente31@mail.com;www.cliente31.com
+Héctor Soler;Calle del Amor;33;Guadalajara;28032;Guadalajara;X322345678;600000032;900000032;cliente32@mail.com;www.cliente32.com
+Verónica Pardo;Calle de la Fortuna;34;Segovia;28033;Segovia;X332345678;600000033;900000033;cliente33@mail.com;www.cliente33.com
+Adrián Gutiérrez;Calle de los Olivos;35;Teruel;28034;Teruel;X342345678;600000034;900000034;cliente34@mail.com;www.cliente34.com
+Inés Gallego;Calle de los Pinos;36;Tarragona;28035;Tarragona;X352345678;600000035;900000035;cliente35@mail.com;www.cliente35.com
+Javier Ventura;Calle de los Naranjos;37;Lérida;28036;Lérida;X362345678;600000036;900000036;cliente36@mail.com;www.cliente36.com
+Eva Aguilar;Calle del Agua;38;Girona;28037;Girona;X372345678;600000037;900000037;cliente37@mail.com;www.cliente37.com
+Rubén Mateo;Calle del Fuego;39;Zamora;28038;Zamora;X382345678;600000038;900000038;cliente38@mail.com;www.cliente38.com
+Silvia Vega;Calle del Tiempo;40;Avila;28039;Avila;X392345678;600000039;900000039;cliente39@mail.com;www.cliente39.com
+Marcos Nieto;Calle de los Árboles;41;Castellón;28040;Castellón;X402345678;600000040;900000040;cliente40@mail.com;www.cliente40.com
+Pilar Estrada;Calle del Bosque;42;Cáceres;28041;Cáceres;X412345678;600000041;900000041;cliente41@mail.com;www.cliente41.com
+Fernando Bautista;Calle del Sol;43;Badajoz;28042;Badajoz;X422345678;600000042;900000042;cliente42@mail.com;www.cliente42.com
+Carla Ortiz;Calle de la Luna;44;Albacete;28043;Albacete;X432345678;600000043;900000043;cliente43@mail.com;www.cliente43.com
+Oscar Marín;Calle de las Estrellas;45;Ciudad Real;28044;Ciudad Real;X442345678;600000044;900000044;cliente44@mail.com;www.cliente44.com
+Alba Campos;Calle del Horizonte;46;Ceuta;28045;Ceuta;X452345678;600000045;900000045;cliente45@mail.com;www.cliente45.com
+Raquel Moreno;Calle del Viento;47;Melilla;28046;Melilla;X462345678;600000046;900000046;cliente46@mail.com;www.cliente46.com
+Gustavo Cortés;Calle de la Nieve;48;Huesca;28047;Huesca;X472345678;600000047;900000047;cliente47@mail.com;www.cliente47.com
+Natalia Alonso;Calle del Mar;49;Pontevedra;28048;Pontevedra;X482345678;600000048;900000048;cliente48@mail.com;www.cliente48.com
+Iván Ramos;Calle del Cielo;50;Las Palmas;28049;Las Palmas;X492345678;600000049;900000049;cliente49@mail.com;www.cliente49.com
