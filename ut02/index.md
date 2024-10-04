@@ -5,4 +5,4 @@
 4. Preparación del servicio para instalar el sistema ERP
 5. Instalación de un sistema ERP Odoo 16
 6. Puesta en marcha de Odoo 16
-7. 
+   
