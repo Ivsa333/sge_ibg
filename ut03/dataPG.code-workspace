@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "dataPG",
+			"path": "../../odoo/dataPG"
+		},
+		{
+			"name": "volumenesOdoo",
+			"path": "../../odoo/volumenesOdoo"
+		},
+		{
+			"name": "mackdown ejemplos",
+			"path": "../../mackdown ejemplos"
+		},
+		{
+			"name": "sge_ibg",
+			"path": ".."
+		},
+		{
+			"path": "../../../DDI"
+		},
+		{
+			"path": "../../odoo"
+		}
+	],
+	"settings": {}
+}
