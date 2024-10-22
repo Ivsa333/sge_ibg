@@ -7917,124 +7917,76 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9907a3d6-0182-4b58-bd00-a666a3d93ba2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=601a6d84-f3de-4c8a-86dd-179a40805170">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">puntoP1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-<span class="n">puntoP2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">puntoP1</span> <span class="o">&lt;</span><span class="mi">5</span> <span class="ow">and</span> <span class="n">puntoP2</span> <span class="o">&lt;</span><span class="mi">5</span><span class="p">):</span>
-    <span class="n">eleccionP1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Elige entre piedra, papel, tijeras, lagarto, spock"</span><span class="p">)</span>
-    <span class="n">eleccionP2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Elige entre piedra, papel, tijeras, lagarto, spock"</span><span class="p">)</span>
-    <span class="k">match</span> <span class="n">eleccionP1</span><span class="p">:</span>
-        <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-            <span class="k">match</span> <span class="n">eleccionP2</span><span class="p">:</span>
-                <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"EMPATE"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 1"</span><span class="p">)</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-        <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-            <span class="k">match</span> <span class="n">eleccionP2</span><span class="p">:</span>
-                <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"EMPATE"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 1"</span><span class="p">)</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-        <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-            <span class="k">match</span> <span class="n">eleccionP2</span><span class="p">:</span>
-                <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"EMPATE"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 1"</span><span class="p">)</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-        <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-            <span class="k">match</span> <span class="n">eleccionP2</span><span class="p">:</span>
-                <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"EMPATE"</span><span class="p">)</span>
-                    
-                <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                    
-                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 1"</span><span class="p">)</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-        <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-            <span class="k">match</span> <span class="n">eleccionP2</span><span class="p">:</span>
-                <span class="k">case</span> <span class="s1">'piedra'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'papel'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'tijeras'</span><span class="p">:</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 1"</span><span class="p">)</span>
-                <span class="k">case</span> <span class="s1">'lagarto'</span><span class="p">:</span>
-                    <span class="n">puntoP2</span> <span class="o">+=</span> <span class="mi">1</span>
-                    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player 2"</span><span class="p">)</span>
-                    
-                <span class="k">case</span> <span class="s1">'spock'</span><span class="p">:</span>
-                    
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"EMPATE"</span><span class="p">)</span>
-                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 1"</span><span class="p">)</span>
-                    <span class="n">puntoP1</span> <span class="o">+=</span><span class="mi">1</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Este ejercicio es el de piedra, papel, tijeras, lagarto, spock pero de manera aleatória</span>
+<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="n">elecciones</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"piedra"</span><span class="p">,</span> <span class="s2">"papel"</span><span class="p">,</span> <span class="s2">"tijeras"</span><span class="p">,</span> <span class="s2">"lagarto"</span><span class="p">,</span> <span class="s2">"spock"</span><span class="p">]</span>
+<span class="n">victoriasPlayer</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="n">victoriasIA</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">victoriasPlayer</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="ow">and</span> <span class="n">victoriasIA</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">):</span>
+    <span class="n">eleccionPlayer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Elija entre piedra, papel, tijera, lagarto y spock"</span><span class="p">)</span>
+    <span class="n">eleccionesIA</span> <span class="o">=</span> <span class="n">choice</span><span class="p">(</span><span class="n">elecciones</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Elección del jugador: "</span><span class="o">+</span><span class="n">eleccionPlayer</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">"Elección de la IA: "</span><span class="o">+</span><span class="n">eleccionesIA</span><span class="p">)</span>
+    <span class="k">match</span> <span class="p">(</span><span class="n">eleccionPlayer</span><span class="p">):</span>
+        <span class="k">case</span> <span class="s2">"piedra"</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"lagarto"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"tijeras"</span><span class="p">):</span>
+                <span class="n">victoriasPlayer</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player"</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"spock"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"papel"</span><span class="p">):</span>
+                <span class="n">victoriasIA</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para la IA"</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"Empate"</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">"papel"</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"spock"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"piedra"</span><span class="p">):</span>
+                <span class="n">victoriasPlayer</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player"</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"lagarto"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"tijeras"</span><span class="p">):</span>
+                <span class="n">victoriasIA</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para la IA"</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"Empate"</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">"tijeras"</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"lagarto"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"papel"</span><span class="p">):</span>
+                <span class="n">victoriasPlayer</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player"</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"spock"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"piedra"</span><span class="p">):</span>
+                <span class="n">victoriasIA</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para la IA"</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"Empate"</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">"lagarto"</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"spock"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"papel"</span><span class="p">):</span>
+                <span class="n">victoriasPlayer</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player"</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"piedra"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"tijeras"</span><span class="p">):</span>
+                <span class="n">victoriasIA</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para la IA"</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"Empate"</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">"spock"</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"piedra"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"tijeras"</span><span class="p">):</span>
+                <span class="n">victoriasPlayer</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para el player"</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">eleccionesIA</span> <span class="o">==</span> <span class="s2">"lagarto"</span> <span class="ow">or</span> <span class="n">eleccionesIA</span><span class="o">==</span><span class="s2">"papel"</span><span class="p">):</span>
+                <span class="n">victoriasIA</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="s2">"Punto para la IA"</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"Empate"</span><span class="p">)</span>
         <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">"Opción no válida, punto para Player 2"</span><span class="p">)</span>
-            <span class="n">puntoP2</span><span class="o">+=</span><span class="mi">1</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"puntos player1 = "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">puntoP1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" y puntos player2 = "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">puntoP2</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"FIN DEL JUEGO"</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"opción no válida"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Puntos del jugador: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">victoriasPlayer</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Puntos de la IA: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">victoriasIA</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">" "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"TENEMOS UN GANADOR"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8050,8 +8002,12 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Punto para el player 2
-puntos player1 = 0 y puntos player2 = 1
+<pre>Elección del jugador: lagarto
+Elección de la IA: lagarto
+Empate
+Puntos del jugador: 0
+Puntos de la IA: 0
+ 
 </pre>
 </div>
 </div>
@@ -8061,8 +8017,12 @@ puntos player1 = 0 y puntos player2 = 1
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Punto para el player 2
-puntos player1 = 0 y puntos player2 = 2
+<pre>Elección del jugador: piedra
+Elección de la IA: spock
+Punto para la IA
+Puntos del jugador: 0
+Puntos de la IA: 1
+ 
 </pre>
 </div>
 </div>
@@ -8072,8 +8032,12 @@ puntos player1 = 0 y puntos player2 = 2
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Punto para el player 2
-puntos player1 = 0 y puntos player2 = 3
+<pre>Elección del jugador: papel
+Elección de la IA: spock
+Punto para el player
+Puntos del jugador: 1
+Puntos de la IA: 1
+ 
 </pre>
 </div>
 </div>
@@ -8083,8 +8047,12 @@ puntos player1 = 0 y puntos player2 = 3
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Punto para el player 2
-puntos player1 = 0 y puntos player2 = 4
+<pre>Elección del jugador: spock
+Elección de la IA: piedra
+Punto para el player
+Puntos del jugador: 2
+Puntos de la IA: 1
+ 
 </pre>
 </div>
 </div>
@@ -8094,9 +8062,88 @@ puntos player1 = 0 y puntos player2 = 4
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Punto para el player 2
-puntos player1 = 0 y puntos player2 = 5
-FIN DEL JUEGO
+<pre>Elección del jugador: spock
+Elección de la IA: lagarto
+Punto para la IA
+Puntos del jugador: 2
+Puntos de la IA: 2
+ 
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Elección del jugador: lagarto
+Elección de la IA: piedra
+Punto para la IA
+Puntos del jugador: 2
+Puntos de la IA: 3
+ 
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Elección del jugador: piedra
+Elección de la IA: piedra
+Empate
+Puntos del jugador: 2
+Puntos de la IA: 3
+ 
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Elección del jugador: tijeras
+Elección de la IA: spock
+Punto para la IA
+Puntos del jugador: 2
+Puntos de la IA: 4
+ 
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Elección del jugador: lagarto
+Elección de la IA: papel
+Punto para el player
+Puntos del jugador: 3
+Puntos de la IA: 4
+ 
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Elección del jugador: spock
+Elección de la IA: lagarto
+Punto para la IA
+Puntos del jugador: 3
+Puntos de la IA: 5
+ 
+TENEMOS UN GANADOR
 </pre>
 </div>
 </div>
@@ -8107,14 +8154,14 @@ FIN DEL JUEGO
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">n</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Inserte un número"</span><span class="p">))</span>
 <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">a</span><span class="o">=</span><span class="mi">0</span>
 <span class="n">b</span><span class="o">=</span><span class="mi">1</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">):</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
     
     <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">):</span>
         <span class="n">a</span><span class="o">=</span><span class="mi">1</span>
@@ -8150,7 +8197,22 @@ FIN DEL JUEGO
 5
 8
 13
+21
 </pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1c9fda5b-3f5a-4ae4-b805-edfc0f09e2ff">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
 </div>
 </div>
 </div>
