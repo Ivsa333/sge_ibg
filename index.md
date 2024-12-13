@@ -8,7 +8,7 @@
 ## Unidad 5
 [Indice unidad 5](./ut05/index.md)
 ## Unidad 6
-
+[Indice unidad 6](./ut06/index.md)
 ## Unidad 7
 
 ## Unidad 8
