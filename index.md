@@ -10,7 +10,7 @@
 ## Unidad 6
 [Indice unidad 6](./ut06/index.md)
 ## Unidad 7
-
+[Indice unidad 7](./ut07/index.md)
 ## Unidad 8
 
 ## Proyecto 1
