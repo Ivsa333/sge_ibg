@@ -3,4 +3,5 @@
 3. [Pr0403](./pr0403/pr0403.md)
 4. [Pr0404](./pr0404/pr0404.md)
 5. [Pr0405](./pr0405/pr0405.md)
-6. [Repaso Pr04R1](./pr04R1/)
+6. [Repaso Pr04R1](./pr04R1/pr04R1.md)
+7. [Repaso Pr04R2](./pr04R2/pr04R2.md)
