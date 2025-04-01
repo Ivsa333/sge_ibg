@@ -6,3 +6,4 @@
 6. [Repaso Pr04R1](./pr04R1/pr04R1.md)
 7. [Repaso Pr04R2](./pr04R2/pr04R2.md)
 8. [Repaso Pr04R3](./pr04R3/pr04R3.md)
+9. [Repaso Pr04R4](./pr04R4/pr04R4.md)
